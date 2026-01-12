@@ -1,0 +1,26 @@
+{
+  "action_classification": {
+    "expressive": {
+      "generate_text": true,
+      "format_knowledge": true,
+      "translate_representation": true
+    },
+
+    "material": {
+      "publish_artifact": true,
+      "upload_file": true,
+      "trigger_release": true
+    },
+
+    "relational": {
+      "notify_external": true,
+      "signal_presence": true
+    }
+  },
+
+  "global_restrictions": {
+    "no_self_trigger": true,
+    "no_autonomy": true,
+    "no_recursive_action": true
+  }
+}
